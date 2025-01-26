@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation</title>
+</head>
+<body>
+    <nav><h1>Travel Recommendation</h1>
+        <ul>
+            <li><a href="travel_recommendation.html" id="home">Home </a></li>
+            <li><a href="about.html" id="about">About Us </a></li>
+            <li><a href="contact.html" id="contact">Contact us</a></li>
+            <li><input type="text" id="destinationInput" placeholder="Enter a destination">  </li>
+            <li><button id='btnSearch'>Search</button></li>
+            <li><button id="btnClear">Clear</button></li>
+        </ul>
+    </nav>
+    <div>
+        <h1>Welcome to Travel Recommendation</h1>
+        <p>Travel Recommendation is a website that provides travel recommendations based on user input. 
+            You can search for a destination or keyword and get a list of recommended travel destinations. 
+            You can also get more information about a specific destination by clicking on the destination name. 
+            If you have any questions or feedback, please feel free to contact us. 
+            We hope you enjoy using Travel Recommendation!</p>
+        <style>
+            body {
+                background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/57/8a/a2/copacabana.jpg?w=900&h=500&s=1');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </div>
+    <div id="result"></div>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
